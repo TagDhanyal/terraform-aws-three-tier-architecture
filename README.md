@@ -36,19 +36,25 @@ The repository contains the following Terraform configuration files:
 To use this repository, follow these steps:
 
 1. Clone this repository:
-  git clone https://github.com/yourusername/terraform-aws-three-tier-architecture.git
-  cd terraform-aws-three-tier-architecture
+
+        git clone https://github.com/TagDhanyal/terraform-aws-three-tier-architecture.git
+
+        cd terraform-aws-three-tier-architecture
 
 2. Initialize the Terraform working directory:
-  terraform init
+
+        terraform init
 
 3. Review the changes to be applied by running:
-    terraform plan
 
-4. Apply the changes:
-  terraform apply
+        terraform plan
+
+5. Apply the changes:
+
+        terraform apply
 
 **Note:** Make sure to provide any required variables or input values when prompted.
 
 To destroy the infrastructure and clean up resources, run:
-  terraform destroy
+
+    terraform destroy
